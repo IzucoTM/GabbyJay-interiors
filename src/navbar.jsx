@@ -29,7 +29,7 @@ function NavBar() {
   return (
     <nav className="sticky top-0 z-50 bg-[#F6F3ED] border-b border-black/10">
       <div className="flex items-center justify-between px-6 py-4">
-        <div className="navlogo text-[32px] flex flex-col gap-[2px] items-center font-Cormorant leading-[1g">
+        <div className="navlogo text-[32px] flex flex-col gap-[2px] items-center font-Cormorant leading-[1]">
           GabbyJay
           <span className="text-[8px] text-[#6A5845] tracking-[0.033em]">
             Interiors
