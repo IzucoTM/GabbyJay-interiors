@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap");
+
+@import "tailwindcss";
+html {
+  scroll-behavior: smooth;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Cormorant Garamond", serif;
+}
+body {
+  background-color: #f6f3ed;
+  font-family: "Inter", sans-serif;
+}
+img {
+  width: 100%;
+}
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+.navlogo,
+.philosophy {
+  font-family: "Cormorant Garamond", serif;
+  font-style: italic;
+}
+.navlogo span {
+  font-family: "Inter", sans-serif;
+}
