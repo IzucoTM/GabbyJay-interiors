@@ -2,6 +2,10 @@ import { MessageCircle, ArrowUpRight } from "lucide-react";
 import HeroImg from "./assets/hero.jpg";
 
 function Hero() {
+  const phoneNumber = "2348037744229";
+  const message =
+    "Hello GabbyJay Interiors, i'd like to get a quote for custom curtains";
+
   return (
     <section className="hero scroll-mt-[85px]" id="home">
       <div className="hero-container">
@@ -18,11 +22,16 @@ function Hero() {
             fold
           </p>
           <div className="hero-cta flex flex-col gap-[12px] items-start">
-            <button className="hero-btn bg-[#F6F3ED] text-[#302E29] p-[22px] flex gap-[14px] text-[12px] items-center">
+            <a
+              href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hero-btn bg-[#F6F3ED] text-[#302E29] p-[22px] flex gap-[14px] text-[12px] items-center"
+            >
               <MessageCircle size={18} color="#6A5845" />
               Get a quote on whatsapp
               <ArrowUpRight size={16} color="#6A5845" />
-            </button>
+            </a>
             <small className=" text-[10px] text-[#D9D0C3]">
               lets find the right finish for your space
             </small>

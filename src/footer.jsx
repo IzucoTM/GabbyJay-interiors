@@ -3,6 +3,10 @@ import { MessageCircle, ArrowUpRight } from "lucide-react";
 import Reveal from "./reveal";
 
 function Footer() {
+  const phoneNumber = "2348037744229";
+  const message =
+    "Hello GabbyJay Interiors, i'd like to get a quote for custom curtains";
+
   return (
     <footer className="bg-[#292823]">
       <div className="container">
@@ -24,11 +28,16 @@ function Footer() {
                 A room photo, an idea, a fresh start. Tell us what you have in
                 mind, and we'll help bring it into focus
               </p>
-              <button className="hero-btn bg-[#F6F3ED] text-[#302E29] p-[22px] flex gap-[14px] text-[12px] items-center justify-center">
+              <a
+                href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hero-btn bg-[#F6F3ED] text-[#302E29] p-[22px] flex gap-[14px] text-[12px] items-center justify-center"
+              >
                 <MessageCircle size={18} color="#6A5845" />
                 Get a quote on whatsapp
                 <ArrowUpRight size={16} color="#6A5845" />
-              </button>
+              </a>
               <small className="text-[10px] text-[#D9D0C3]  leading-[1.6]">
                 Have window photos and approximaate sizes ready? That's a lovely
                 place to begin
