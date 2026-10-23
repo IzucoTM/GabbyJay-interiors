@@ -7,9 +7,9 @@ import Reveal from "./reveal";
 function Collection() {
   return (
     <section className="collection scroll-mt-[85px]" id="collections">
-      <div className="container pr-[24px] pl-[24px] pb-[64px] pt-[32px] flex flex-col gap-[32px]">
+      <div className="container pr-[24px] pl-[24px] pb-[64px] pt-[32px] flex flex-col gap-[32px] lg:p-[80px] lg:pb-[104px] lg:pt-0 lg:gap-[48px] lg:pt-[88px] ">
         <Reveal>
-          <div className="collection-header flex flex-col gap-[20px]">
+          <div className="collection-header grid  sm:grid-cols-2 sm:gap-[50px] sm:items-end gap-[20px]">
             <div className="collection-title flex flex-col gap-[20px]">
               <span className="section-label text-[10px] text-[#6A5845] tracking-[0.022em]">
                 The collections
@@ -26,7 +26,7 @@ function Collection() {
             </div>
           </div>
         </Reveal>
-        <div className="collection-gallery flex flex-col gap-[40px]">
+        <div className="collection-gallery grid sm:grid-cols-2 gap-[40px] xl:grid-cols-3">
           <Reveal>
             <div className="collection-card flex flex-col gap-[18px]">
               <div className="w[342px] h-[350px] overflow-hidden">
@@ -51,7 +51,7 @@ function Collection() {
             </div>
           </Reveal>
           <Reveal>
-            <div className="collection-card flex flex-col gap-[18px]">
+            <div className="collection-card flex flex-col gap-[18px] pt-[70px]">
               <div className="w[342px] h-[350px] overflow-hidden">
                 <img
                   src={Blackout}
@@ -98,7 +98,7 @@ function Collection() {
               </div>
             </div>
           </Reveal>
-          <Reveal>
+          {/* <Reveal>
             <div className="collection-card flex flex-col gap-[18px]">
               <div className="w[342px] h-[350px] overflow-hidden">
                 <img
@@ -121,7 +121,7 @@ function Collection() {
                 </small>
               </div>
             </div>
-          </Reveal>
+          </Reveal> */}
         </div>
       </div>
     </section>

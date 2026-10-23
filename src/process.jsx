@@ -5,15 +5,15 @@ import Reveal from "./reveal";
 
 function Process() {
   return (
-    <section className="approach scroll-mt-[85px]" id="process">
-      <div className="container bg-[#EAE4DA] flex flex-col gap-[36px] p-[64px] pr-[24px] pl-[24px]">
+    <section className="approach scroll-mt-[85px] bg-[#EAE4DA]" id="process">
+      <div className="container bg-[#EAE4DA] flex flex-col gap-[36px] p-[64px] pr-[24px] pl-[24px] lg:p-[80px] lg:pb-[104px] lg:pt-0 lg:gap-[48px] lg:pt-[88px]">
         <Reveal>
-          <div className="approach-header flex flex-col gap-[28px]">
+          <div className="approach-header grid  sm:grid-cols-2 sm:gap-[50px] sm:items-end gap-[28px]">
             <div className="approach-title flex flex-col gap-[28px]">
               <small className="text-[10px] text-[#6A5845] tracking-[0.022em]">
                 From concept to completion
               </small>
-              <h2 className=" text-[44px] text-[#302E29] leading-[1.04] tracking-[-0.014em]">
+              <h2 className=" text-[min(10vw,40px)] text-[#302E29] leading-[1.04] tracking-[-0.014em]">
                 Your vision, Your measurements, Your perfect finish
               </h2>
             </div>
@@ -25,7 +25,7 @@ function Process() {
           </div>
         </Reveal>
 
-        <div className="approach-cards flex flex-col gap-[50px]">
+        <div className="approach-cards grid gap-[50px] sm:grid-cols-2 xl:grid-cols-3">
           <Reveal>
             <div className="approach-card border-solid border-[1px] border-[#D7CFC3]">
               <div className="approach-card-img w[342px] h-[350px] overflow-hidden">
@@ -51,7 +51,7 @@ function Process() {
             </div>
           </Reveal>
           <Reveal>
-            <div className="approach-card border-solid border-[1px] border-[#D7CFC3]">
+            <div className="approach-card border-solid border-[1px] border-[#D7CFC3] xl:relative xl:top-[70px]">
               <div className="approach-card-img w[342px] h-[350px] overflow-hidden">
                 <img
                   src={Tailor}

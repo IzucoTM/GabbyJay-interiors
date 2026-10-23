@@ -28,12 +28,24 @@ function NavBar() {
 
   return (
     <nav className="sticky top-0 z-50 bg-[#F6F3ED] border-b border-black/10">
-      <div className="flex items-center justify-between px-6 py-4">
+      <div className="container flex items-center justify-between px-6 py-4 lg:pr-[80px] lg:pl-[80px]">
         <div className="navlogo text-[32px] flex flex-col gap-[2px] items-center font-Cormorant leading-[1]">
           GabbyJay
           <span className="text-[8px] text-[#6A5845] tracking-[0.033em]">
             Interiors
           </span>
+        </div>
+        <div className="btns">
+          {/* <a
+            href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hero-btn bg-[#F6F3ED] text-[#302E29] p-[22px] flex gap-[14px] text-[12px] items-center"
+          >
+            <MessageCircle size={18} color="#6A5845" />
+            Get a quote on whatsapp
+            <ArrowUpRight size={16} color="#6A5845" />
+          </a> */}
         </div>
 
         <button

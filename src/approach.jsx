@@ -4,9 +4,9 @@ import Reveal from "./reveal";
 function Approach() {
   return (
     <section className="approach-section">
-      <div className="container flex flex-col gap-[36px] pr-[24px] pl-[24px] pt-[64px] pb-[64px] bg-[#F6F3ED] border-b-[1px] border-solid border-[#D7CFC3]">
+      <div className="container grid flex-col sm:grid-cols-2  sm:items-end gap-[36px] pr-[24px] pl-[24px] pt-[64px] pb-[64px] bg-[#F6F3ED] border-b-[1px] border-solid border-[#D7CFC3] lg:p-[104px] lg:pr-[80px] lg:pl-[80px] lg:gap-[100px]">
         <Reveal>
-          <div className="flex flex-col gap-[24px]">
+          <div className="flex flex-col gap-[24px] ">
             <span className="section-label text-[10px] text[#6A5845] text-[#716B62] ">
               The GabbyJay approach
             </span>
@@ -25,15 +25,15 @@ function Approach() {
           </div>
         </Reveal>
         <Reveal>
-          <div className="flex flex-col gap-[12px]">
-            <div className="img w-[342px] h-[280px] overflow-hidden">
+          <div className="flex flex-col m-aut0 gap-[12px] sm:">
+            <div className="img h-[280px]  overflow-hidden">
               <img
                 src={ApproachSection}
                 alt="curtain view"
-                className="w-full h-full object-cover object-center"
+                className="w-full h-full object-cover object-center "
               ></img>
             </div>
-            <p className=" text-[10px] text-[#716B62]">
+            <p className=" text-[10px] text-[#716B62] ">
               A study in texture, light and natural movement
             </p>
           </div>

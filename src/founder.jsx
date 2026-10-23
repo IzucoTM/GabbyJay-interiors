@@ -4,7 +4,7 @@ import Reveal from "./reveal";
 function Founder() {
   return (
     <section className="founder scroll-mt-[85px]" id="about">
-      <div className="container pr-[24px] pl-[24px] pb-[64px] pt-[32px] flex flex-col gap-[50px]">
+      <div className="container pr-[24px] pl-[24px] pb-[64px] pt-[32px] grid sm:grid-cols-2 sm:items-end gap-[50px] lg:p-[80px] lg:pb-[104px] lg:pt-0 lg:gap-[48px] lg:pt-[88px]">
         <Reveal>
           <div className="founder-content flex flex-col gap-[20px]">
             <small className="section-label text-[10px] text-[#6A5845] tracking-[0.022em]">
@@ -34,7 +34,7 @@ function Founder() {
           </div>
         </Reveal>
         <Reveal>
-          <div className="founder-img relative">
+          <div className="founder-img relative ">
             <small className="absolute bottom-[20px] left-[10px] bg-[#292823] text-[#F6F3ED] text-[9px] pt-[10px] pb-[10px] pr-[14px] pl-[14px] ">
               DON GABRIEL
             </small>

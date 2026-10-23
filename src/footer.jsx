@@ -10,14 +10,14 @@ function Footer() {
   return (
     <footer className="bg-[#292823]">
       <div className="container">
-        <div>
+        <div className="grid sm:grid-cols-2 ">
           <Reveal>
-            <div className="h-[280px] overflow-hidden">
+            <div className="min-h-[280px] overflow-hidden sm:min-h-[400px] sm:max-h-[400px] lg:max-h-[450px]">
               <img src={FooterImg} alt="" />
             </div>
           </Reveal>
           <Reveal>
-            <div className="flex flex-col gap-[24px] p-[56px] pr-[24px] pl-[24px]">
+            <div className="flex flex-col gap-[24px] p-[56px] pr-[24px] pl-[24px] lg:p-[80px] lg:pt-[72px] lg:pb-[72px]">
               <small className="text-[10px] text-[#D9D0C3] tracking-[0.022em]">
                 YOUR HOME, BEAUTIFULLY FINISHED
               </small>
@@ -46,9 +46,9 @@ function Footer() {
           </Reveal>
         </div>
         <Reveal>
-          <div className="flex flex-col gap-[32px] p-[24px] pt-[40px]">
+          <div className="flex flex-col gap-[32px] p-[24px] pt-[40px] lg:p-[80px] lg:pt-[56px] lg:pb-[28px]">
             <hr className="text-[#56534A]" />
-            <div className="footer-navigation flex flex-col gap-[32px] items-start">
+            <div className="footer-navigation flex flex-col sm:flex-row sm:justify-between gap-[32px] items-start">
               <div className="flex flex-col gap-[16px] items-start">
                 <div className="navlogo text-[56px] flex flex-col gap-[2px] items-center font-Cormorant text-[#F6F3ED] leading-[1] tracking-[0.007em]">
                   GabbyJay
@@ -98,7 +98,7 @@ function Footer() {
               </div>
             </div>
             <hr className="text-[#56534A]" />
-            <div className="flex flex-col gap-[12px]">
+            <div className="flex flex-col sm:flex-row sm:justify-between gap-[12px]">
               <p className="text-[9px] text-[#D9D0C3]">
                 &copy; GabbyJay interiors. All rights reserved.
               </p>

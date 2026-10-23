@@ -31,8 +31,8 @@ function Faq() {
     },
   ];
   return (
-    <section className="faq scroll-mt-[85px]" id="faq">
-      <div className="container flex flex-col gap-[32px] p-[24px] pb-[64px] bg-[#EAE4DA]">
+    <section className="faq scroll-mt-[85px] bg-[#EAE4DA] " id="faq">
+      <div className="container grid sm:grid-cols-2 gap-[32px] p-[24px] pb-[64px] bg-[#EAE4DA] lg:p-[80px] lg:pb-[104px] lg:pt-0 lg:gap-[48px] lg:pt-[88px]">
         {/* title */}
         <Reveal>
           <div className="flex flex-col gap-[20px]">
