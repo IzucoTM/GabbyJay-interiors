@@ -3,7 +3,7 @@ import { MessageCircle, ArrowUpRight } from "lucide-react";
 import Reveal from "./reveal";
 
 function Footer() {
-  const phoneNumber = "2348037744229";
+  const phoneNumber = "2348033287989";
   const message =
     "Hello GabbyJay Interiors, i'd like to get a quote for custom curtains";
 

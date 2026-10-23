@@ -2,7 +2,7 @@ import { MessageCircle, ArrowUpRight } from "lucide-react";
 import HeroImg from "./assets/hero.jpg";
 
 function Hero() {
-  const phoneNumber = "2348037744229";
+  const phoneNumber = "2348033287989";
   const message =
     "Hello GabbyJay Interiors, i'd like to get a quote for custom curtains";
 
