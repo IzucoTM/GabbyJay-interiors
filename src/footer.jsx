@@ -86,7 +86,7 @@ function Footer() {
                     LET'S CONNECT
                   </p>
                   <a
-                    href="https://wa.me/2348037744229"
+                    href="https://wa.me/2348033287989"
                     className="text-[#F6F3ED] text-[12px] flex items-center gap-[1px] "
                   >
                     Chat on Whatsapp <ArrowUpRight size={14} color="#D9D0C3" />
