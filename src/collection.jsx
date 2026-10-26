@@ -51,7 +51,7 @@ function Collection() {
             </div>
           </Reveal>
           <Reveal>
-            <div className="collection-card flex flex-col gap-[18px] pt-[70px]">
+            <div className="collection-card flex flex-col gap-[18px] xl:pt-[70px]">
               <div className="w[342px] h-[350px] overflow-hidden">
                 <img
                   src={Blackout}

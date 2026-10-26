@@ -51,7 +51,7 @@ function Process() {
             </div>
           </Reveal>
           <Reveal>
-            <div className="approach-card border-solid border-[1px] border-[#D7CFC3] xl:relative xl:top-[70px]">
+            <div className="approach-card border-solid border-[1px] border-[#D7CFC3] xl:relative xl:top-[70px] xl:mb-[70px]">
               <div className="approach-card-img w[342px] h-[350px] overflow-hidden">
                 <img
                   src={Tailor}

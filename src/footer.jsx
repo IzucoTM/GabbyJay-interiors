@@ -12,7 +12,7 @@ function Footer() {
       <div className="container">
         <div className="grid sm:grid-cols-2 ">
           <Reveal>
-            <div className="min-h-[280px] overflow-hidden sm:min-h-[400px] sm:max-h-[400px] lg:max-h-[450px]">
+            <div className="h-[240px] overflow-hidden sm:min-h-[400px] sm:max-h-[400px] lg:max-h-[450px]">
               <img src={FooterImg} alt="" />
             </div>
           </Reveal>
@@ -32,7 +32,7 @@ function Footer() {
                 href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hero-btn bg-[#F6F3ED] text-[#302E29] p-[22px] flex gap-[14px] text-[12px] items-center justify-center"
+                className="hero-btn bg-[#F6F3ED] text-[#302E29] p-[22px] flex gap-[14px] text-[12px] items-center justify-center transition-all duration-300 lg:hover:bg-[#dddbd5] lg:hover:text-[#302E29] lg:hover:-translate-y-0.5 lg:hover:shadow-lg lg:active:translate-y-0 lg:active:scale-[0.98]"
               >
                 <MessageCircle size={18} color="#6A5845" />
                 Get a quote on whatsapp
@@ -61,7 +61,7 @@ function Footer() {
                 </p>
               </div>
               <div className="footer-links flex gap-[44px]">
-                <div className="flex flex-col gap-[14px]">
+                <div className="footer flex flex-col gap-[14px]">
                   <p className="text-[#D9D0C3] text-[10px] tracking-[0.022em]">
                     explore
                   </p>
@@ -87,7 +87,7 @@ function Footer() {
                   </p>
                   <a
                     href="https://wa.me/2348037744229"
-                    className="text-[#F6F3ED] text-[12px] flex items-center gap-[1px]"
+                    className="text-[#F6F3ED] text-[12px] flex items-center gap-[1px] "
                   >
                     Chat on Whatsapp <ArrowUpRight size={14} color="#D9D0C3" />
                   </a>

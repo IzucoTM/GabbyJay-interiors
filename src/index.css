@@ -18,7 +18,7 @@ img {
   width: 100%;
 }
 .container {
-  max-width: 1280px;
+  max-width: 1450px;
   margin: auto;
 }
 .navlogo,
@@ -28,4 +28,48 @@ img {
 }
 .navlogo span {
   font-family: "Inter", sans-serif;
+}
+@media (min-width: 1024px) {
+  .navLists a {
+    position: relative;
+  }
+
+  .navLists a::after {
+    content: "";
+    position: absolute;
+    left: 24px;
+    bottom: 14px;
+    width: calc(100% - 48px);
+    height: 1px;
+    background: #302e29;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+  }
+
+  .navLists a:hover::after {
+    transform: scaleX(1);
+  }
+}
+@media (min-width: 1024px) {
+  .footer a {
+    position: relative;
+  }
+
+  .footer a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 1px;
+    background: #d9d0c3;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+  }
+
+  .footer a:hover::after {
+    transform: scaleX(1);
+  }
 }

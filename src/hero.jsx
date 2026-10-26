@@ -18,7 +18,7 @@ function Hero() {
           </Reveal>
           <Reveal>
             <h1 className="section-heading text-[min(10vw,82px)] leading-[1.04] tracking-[-0.014em] text-[#F6F3ED] lg:text-[82px]">
-              Beautifully framed living.
+              Beautifully framed <span className="xl:block">living.</span>
             </h1>
           </Reveal>
           <Reveal>
@@ -34,7 +34,7 @@ function Hero() {
                 href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hero-btn bg-[#F6F3ED] text-[#302E29] p-[22px] flex gap-[14px] text-[12px] items-center"
+                className="hero-btn bg-[#F6F3ED] text-[#302E29] p-[22px] flex gap-[14px] text-[12px] items-center transition-all duration-300 lg:hover:bg-[#dddbd5] lg:hover:text-[#302E29] lg:hover:-translate-y-0.5 lg:hover:shadow-lg lg:active:translate-y-0 lg:active:scale-[0.98]"
               >
                 <MessageCircle size={18} color="#6A5845" />
                 Get a quote on whatsapp
